@@ -12,12 +12,13 @@
     --azul-principal: #0169b4;
     --verde-secundario: #313a22;
     --link: #0a4804;
-    --preto-titulo: #000;
+    --preto-titulo: #ffffff;
   }
   
   /* configurações do corpo como fontes e cores*/
   body {
-    background-color: var(--verde-fundo);
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 8%, rgba(78,255,65,1) 47%, rgba(0,0,0,1) 100%);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size: 20px;
@@ -52,7 +53,7 @@
   
   /*estilos do cabeçalho*/
   .cabecalho {
-    background-image: url("pexels-anete-lusina-5247947.png");
+    background-image: url("irrigacao-por-aspersao.png");
   }
   .img {
     width: 100%;
@@ -103,6 +104,10 @@
     margin-top: 35px;
     color: var(--preto-titulo);
     font-size: 30px;
+
+  }
+  .texto-1{
+    box-shadow: 5px 5px 5px black;
   }
   
   /* estilo seção 2*/
@@ -142,7 +147,7 @@
   
   /* estilo seção 3*/
   .secao3__imagem {
-    background-image: url("img/mel.png");
+    background-image: url("caixa-de-abelha.png");
   }
   .secao3__texto {
     margin: 30% 0 30% 0;
