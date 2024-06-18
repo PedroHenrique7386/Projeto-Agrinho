@@ -11,7 +11,7 @@
     --verde-principal: #5fb13b;
     --azul-principal: #0169b4;
     --verde-secundario: #313a22;
-    --link: #0a4804;
+    --link: #5fb13b;
     --preto-titulo: #ffffff;
   }
   
@@ -73,6 +73,7 @@
     margin-bottom: 300px;
     font-size: 80px;
     font-weight: 400;
+    text-shadow: 5px 5px 5px black;
   }
   .cabecalho__botao {
     margin-left: auto;
@@ -99,6 +100,7 @@
     font-size: 48px;
     color: var(--preto-titulo);
     margin-bottom: 0.2em;
+    text-shadow: 5px 5px 5px black;
   }
   .secao1__texto {
     margin-top: 35px;
@@ -107,7 +109,7 @@
 
   }
   .texto-1{
-    box-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px black;
   }
   
   /* estilo seção 2*/
@@ -135,14 +137,17 @@
   .secao2__imagens img {
     width: 600px;
     height: 400px;
+    box-shadow: 0px 5px 7px black;
   }
   .secao2__titulo {
     margin: 50px 0px 30px 0px;
+    text-shadow: 5px 5px 5px black;
   }
   .secao2__subtitulo h2 {
     margin-top: 35px;
     color: var(--preto-titulo);
     font-size: 30px;
+    text-shadow: 5px 5px 5px black;
   }
   
   /* estilo seção 3*/
@@ -151,6 +156,7 @@
   }
   .secao3__texto {
     margin: 30% 0 30% 0;
+    text-shadow: 5px 5px 5px black;
   }
   .secao3__info {
     width: 95%;
@@ -178,9 +184,11 @@
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
+    text-shadow: 5px 5px 5px black;
   }
   .secao4__titulo {
     font-size: 50px;
+    text-shadow: 5px 5px 5px black;
   }
   .secao4__imagem img {
     width: 100%;
